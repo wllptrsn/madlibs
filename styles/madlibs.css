@@ -1,0 +1,163 @@
+#landing_page_body,
+#interior_body,body {
+    background-image: linear-gradient(#333132, #1C1C1C);
+}
+h2{
+    color:#ffffff;
+}
+#landing_page {
+    text-align: center;
+    vertical-align: middle;
+    max-width: 500px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.logo_text {
+    font-family: 'Concert One', cursive;
+    font-size: 5em;
+    letter-spacing: .2rem;
+}
+
+.link_button {
+    width: 120px;
+    height: 100px;
+    background-color: #E266CB;
+    border: none;
+    border-radius: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 10px;
+    filter: drop-shadow(1px 1px 2px black);
+    letter-spacing: .1rem;
+
+}
+
+.link_button i {
+    font-size: 4em;
+    display: block;
+}
+
+#quit_button {
+    display: none;
+}
+
+.card_image {
+    width: 100%;
+    position: relative;
+}
+
+#part_of_speech {
+
+    color: #ffffff;
+}
+
+#header {
+    height: 60px;
+    color:#ffffff;
+    padding:10px;
+}
+#header a{
+    text-decoration:none;
+    color:#ffffff;
+}
+#header i{
+    font-size:24pt;
+    margin-left:20px;
+    z-index:1;
+}
+
+#category_screen a {
+
+    text-decoration: none;
+}
+
+.card {
+    text-align: center;
+    background-color: #E266CB;
+    border: none;
+    border-radius: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 2px black);
+    letter-spacing: .1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    filter: grayscale(100%);
+}
+
+.card-img-overlay {
+    color: #ffffff;
+    filter: drop-shadow(1px 1px 2px black);
+}
+
+#madlibs_header_2 {
+    display: none;
+}
+#game_screen{
+    text-align:Center;
+}
+
+#quit_modal{
+    display: none; 
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 80px;
+    width: 80%;
+    left:10%;
+    height: 260px;
+    overflow: auto;
+    background-color:#E266CB;
+    border-radius:12px;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    letter-spacing: .1rem;
+    padding-top:20px;
+    filter: drop-shadow(1px 1px 2px black);
+    border:2px solid #824691;
+}
+#quit_modal button, #final_madlib button{
+    background-color:#824691;
+    border:none;
+    height:50px;
+    width:80px;
+    color:#ffffff;
+    margin:20px;
+    border-radius:4px;
+    filter: drop-shadow(1px 1px 2px black);
+}
+#final_madlib{
+    padding:20px;
+    display: none; 
+    position: fixed; 
+    width:90%;
+    left:5%;
+    background-color:#DBB3E5;
+    border-radius:20px;
+    text-align:center;
+    color:white;
+    border: 4px solid #824691;
+    font-size:14pt;
+
+}
+.user_madlib {
+    color: #824691;
+    font-weight:bold;
+}
+#game_screen button{
+    background-color:#824691;
+    margin:5px;
+    font-size:16pt;
+    border:none;
+    color:#ffffff;
+    border-radius:4px;
+    filter: drop-shadow(1px 1px 2px black);
+
+}
+#game_screen button:disabled{
+    background-color:#E266CB;
+}
